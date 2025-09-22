@@ -20,6 +20,7 @@ create table Tm_Productos
     C_Usuario_Modificacion varchar(50) collate Modern_Spanish_CI_AS,
     F_Fecha_Modificacion   datetime,
     C_SKU                  varchar(100) collate Modern_Spanish_CI_AS
+
 )
 go
 
