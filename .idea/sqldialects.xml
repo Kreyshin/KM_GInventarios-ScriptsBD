@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosC_Actualizar.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosC_Crear.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosC_Eliminar.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosQ_BuscarPorID.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosQ_Consultar.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/database-scripts/tables/2025-09-21_create_productos.sql" dialect="TSQL" />
     <file url="file://E:/XD/SCRIPT DE ROL KARMA TABLAS.sql" dialect="TSQL" />
     <file url="PROJECT" dialect="TSQL" />
