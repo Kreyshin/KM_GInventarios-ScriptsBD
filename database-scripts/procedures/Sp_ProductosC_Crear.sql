@@ -1,11 +1,10 @@
-CREATE PROC Sp_ProductosC_Crear
+ALTER PROC Sp_ProductosC_Crear
     @IC_Codigo            VARCHAR(20),
     @IC_Nombre            VARCHAR(200),
     @IC_Descripcion         VARCHAR(200),
     @IID_Categoria          INT,
     @IID_UnidadMedida          INT,
     @IID_Marca          INT,
-    @IID_Estado          INT,
     @IC_SKU              VARCHAR(100),
     @IC_Usuario_Creacion  VARCHAR(50)
 As
@@ -40,7 +39,7 @@ BEGIN
       C_Usuario_Creacion)
      VALUES
       (NEWID(), @IC_Codigo, @IC_Nombre, @IC_Descripcion,
-       @IID_Categoria, @IID_UnidadMedida, @IID_Marca, @IID_Estado,
+       @IID_Categoria, @IID_UnidadMedida, @IID_Marca, @VID_Estado,
        @IC_SKU,
        @IC_Usuario_Creacion)
 
