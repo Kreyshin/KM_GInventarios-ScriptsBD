@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosQ_BuscarPorID.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/database-scripts/procedures/Sp_ProductosQ_Consultar.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/database-scripts/tables/2025-09-21_create_productos.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/database-scripts/tables/Tm_Almacenes.sql" dialect="TSQL" />
     <file url="file://E:/XD/SCRIPT DE ROL KARMA TABLAS.sql" dialect="TSQL" />
     <file url="PROJECT" dialect="TSQL" />
   </component>
